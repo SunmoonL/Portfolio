@@ -146,7 +146,10 @@ a {
   width: 100%;
   height: 960px;
 }
-#third .scroll-slider {
+#third section {
+  width: 95%;
+}
+#third section .scroll-slider {
   position: relative;
   overflow: hidden;
   display: block;
@@ -154,7 +157,7 @@ a {
   padding: 0;
   height: 100vh;
 }
-#third .scroll-wrapper {
+#third section .scroll-wrapper {
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -167,27 +170,27 @@ a {
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 }
-#third .scroll-slide {
+#third section .scroll-slide {
   flex: 1 0 75vw;
   max-width: 75vw;
   height: 100%;
 }
-#third .item {
+#third section .item {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-#third .item-container {
+#third section .item-container {
   position: relative;
 }
-#third .item-title {
+#third section .item-title {
   font-size: 4vw;
   font-weight: bold;
   line-height: 1;
 }
 @media (min-width: 40em) {
-  #third .item-body {
+  #third section .item-body {
     position: absolute;
     left: 100%;
     top: 50%;
@@ -195,10 +198,10 @@ a {
     transform: translate(-25%, -50%);
   }
 }
-#third .tag {
+#third section .tag {
   margin-right: 0.5rem;
 }
-#third .tag > a {
+#third section .tag > a {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
