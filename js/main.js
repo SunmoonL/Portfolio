@@ -1,3 +1,5 @@
+window.onload=function(){
+
 var minShadow = 5;
 var maxShadow = 150;
 var minStrength = 0.1;
@@ -185,3 +187,4 @@ if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|mobi|t
    
 })(jQuery);
 
+}

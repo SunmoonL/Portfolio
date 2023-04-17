@@ -4,6 +4,7 @@
 
 #wrap {
     width: 100%;
+    height: 100%;
     background-color: #eeeeee;
 }
 
@@ -25,7 +26,7 @@ div.container
 
 div.container a
 {
-    color: #FFF;
+    color: #111;
     text-decoration: none;
     font: 20px Raleway;
     margin: 0px 10px;
@@ -40,7 +41,7 @@ div.topBotomBordersIn a:before, div.topBotomBordersIn a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: #FFF;
+    background: #111;
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -147,24 +148,22 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
                 }
             }
         }
-        .btn{
-            margin-top: 30px;
-            display: inline-block;
-            padding: 15px 15px;
-            border-radius: 10px;
-            background-color: dodgerblue; 
-            color: #fff;
-            font-family: 'NeoDunggeunmoPro-Regular';
-            font-size: 1.4rem;
-        }
     }
+}
+.btn{
+  margin-top: 30px;
+  display: inline-block;
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: dodgerblue; 
+  color: #fff;
+  font-family: 'NeoDunggeunmoPro-Regular';
+  font-size: 1.4rem;
 }
 #third{
   width: 100%;
   height: 960px;
 section{
-  width: 95%;
-
 .scroll-slider {
     position: relative;
     overflow: hidden;
@@ -172,6 +171,8 @@ section{
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100vw;
+    transform: rotate(-4deg);
   }
   
   .scroll-wrapper {
@@ -202,6 +203,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 100%;
+
     &-container {
        position: relative;
     }
@@ -235,3 +237,20 @@ section{
   }
 }
 
+#fourth{
+  width: 100%;
+  height: 960px;
+  background-color: #eeeeee;
+  #projwrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    .left{
+      width: 45%;
+    }
+    .right{
+      width: 45%;
+      background-color: dodgerblue;
+    }
+  }
+}
