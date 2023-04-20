@@ -79,7 +79,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "NeoDunggeunmoPro-Regular";
-  font-size: 20rem;
+  font-size: 10rem;
   color: white;
   text-shadow: 0 1px 0 rgb(190, 190, 190), 0 2px 0 rgb(185, 185, 185), 0 3px 0 rgb(180, 180, 180), 0 4px 0 rgb(175, 175, 175), 0 5px 0 rgb(170, 170, 170), 0 6px 0 rgb(165, 165, 165), 0 7px 0 rgb(160, 160, 160), 0 8px 0 rgb(155, 155, 155), 0 9px 0 rgb(150, 150, 150), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 25px rgba(0, 0, 0, 0.25), 0 0 50px rgba(0, 0, 0, 0.2), 0 0 75px rgba(0, 0, 0, 0.15), 0 0 100px rgba(0, 0, 0, 0.1);
 }
@@ -95,10 +95,6 @@ a {
   margin: 0 auto;
   border-radius: 50px;
   padding: 50px 160px;
-}
-#second #intro em {
-  font-family: "NeoDunggeunmoPro-Regular";
-  font-size: 1rem;
 }
 #second #intro p {
   font-family: "NeoDunggeunmoPro-Regular";
@@ -148,6 +144,9 @@ a {
   width: 100%;
   height: 960px;
 }
+#third section {
+  background-color: #eeeeee;
+}
 #third section .scroll-slider {
   position: relative;
   overflow: hidden;
@@ -155,8 +154,10 @@ a {
   margin: 0;
   padding: 0;
   height: 100vh;
-  width: 100vw;
+  width: 110vw;
   transform: rotate(-4deg);
+  background-color: #eeeeee;
+  inset: 0px auto auto 0px;
 }
 #third section .scroll-wrapper {
   position: relative;
@@ -227,4 +228,9 @@ a {
 #fourth #projwrap .right {
   width: 45%;
   background-color: dodgerblue;
+}
+
+em {
+  font-family: "NeoDunggeunmoPro-Regular";
+  font-size: 1rem;
 }
