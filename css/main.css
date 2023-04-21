@@ -86,7 +86,8 @@ a {
 
 #second {
   width: 100%;
-  height: 550px;
+  height: 450px;
+  margin-bottom: 100px;
 }
 #second #intro {
   width: 95%;
@@ -143,6 +144,7 @@ a {
 #third {
   width: 100%;
   height: 960px;
+  margin-bottom: 100px;
 }
 #third section {
   background-color: #eeeeee;
