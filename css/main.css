@@ -183,7 +183,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80%;
 }
 #third section .item-container {
   position: relative;
@@ -196,10 +196,10 @@ a {
 @media (min-width: 40em) {
   #third section .item-body {
     position: absolute;
-    left: 100%;
-    top: 50%;
+    left: 50%;
+    top: 100%;
     width: 50%;
-    transform: translate(-25%, -50%);
+    transform: translate(-100%, 0%);
   }
 }
 #third section .tag {
@@ -216,13 +216,13 @@ a {
 
 #fourth {
   width: 100%;
-  height: 960px;
+  height: 1160px;
   background-color: #eeeeee;
 }
 #fourth #projwrap {
   display: flex;
   justify-content: space-between;
-  padding: 50px 100px;
+  padding: 100px 100px;
 }
 #fourth #projwrap .left {
   width: 45%;
