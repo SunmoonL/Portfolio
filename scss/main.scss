@@ -172,7 +172,7 @@ section{
     width: 110vw;
     transform: rotate(-4deg);
     background-color: #eeeeee;
-    inset: 0px auto auto 0px;
+    inset: 0px auto auto -25px;
   }
   
   .scroll-wrapper {
@@ -211,6 +211,7 @@ section{
       font-size: 4vw;
       font-weight: bold;
       line-height: 1;
+      margin-bottom: 10px;
     }
     &-body {
       @media (min-width:40em) {
@@ -220,9 +221,14 @@ section{
         width: 50%;
         transform: translate(-100%, 0%);
       }
+      p{
+        margin-bottom: 10px;
+      }
     }
   }
-  
+  .nav{
+    display: flex;
+  }
   .tag {
     margin-right: .5rem;
     > a {
@@ -230,8 +236,8 @@ section{
       padding: .25rem .5rem;
       font-size: .75rem;
       text-transform: uppercase;
-      background: rgba(#FFFFFF, .25);
-      color: #FFF;
+      background: rgba(#c6ff97, .25);
+      color: #111;
     }
   }
   }

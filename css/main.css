@@ -159,7 +159,7 @@ a {
   width: 110vw;
   transform: rotate(-4deg);
   background-color: #eeeeee;
-  inset: 0px auto auto 0px;
+  inset: 0px auto auto -25px;
 }
 #third section .scroll-wrapper {
   position: relative;
@@ -192,6 +192,7 @@ a {
   font-size: 4vw;
   font-weight: bold;
   line-height: 1;
+  margin-bottom: 10px;
 }
 @media (min-width: 40em) {
   #third section .item-body {
@@ -202,6 +203,12 @@ a {
     transform: translate(-100%, 0%);
   }
 }
+#third section .item-body p {
+  margin-bottom: 10px;
+}
+#third section .nav {
+  display: flex;
+}
 #third section .tag {
   margin-right: 0.5rem;
 }
@@ -210,8 +217,8 @@ a {
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
   text-transform: uppercase;
-  background: rgba(255, 255, 255, 0.25);
-  color: #FFF;
+  background: rgba(198, 255, 151, 0.25);
+  color: #111;
 }
 
 #fourth {
