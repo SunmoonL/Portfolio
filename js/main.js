@@ -187,4 +187,11 @@ if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|mobi|t
    
 })(jQuery);
 
+$(window).scroll(function(){
+  var ws = $(this).scrollTop();
+  if($("#intro").offset().top -600 < ws){
+    $(".txtbg").css({transform:"scaleX(1)"})
+  }
+})
+
 }
