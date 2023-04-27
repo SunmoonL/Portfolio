@@ -163,6 +163,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
   background-color: #eeeeee;
 section{
   background-color: #eeeeee;
+  overflow: hidden;
 .scroll-slider {
     position: relative;
     overflow: hidden;
@@ -174,6 +175,7 @@ section{
     transform: rotate(-4deg);
     background-color: #eeeeee;
     inset: 0px auto auto -25px;
+    padding-left: 260px;
   }
   
   .scroll-wrapper {
@@ -212,21 +214,23 @@ section{
       font-size: 4vw;
       font-weight: bold;
       line-height: 1;
-      margin-bottom: 10px;
+      width: 50%;
     }
     &-body {
       @media (min-width:40em) {
         position: absolute;
-        left: 50%;
         top: 100%;
-        width: 50%;
-        transform: translate(-100%, 0%);
+        width: 100%;
       }
       p{
-        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 50%;
       }
-      &-inner{
+      .item-inner{
+        width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
       }
     }
   }

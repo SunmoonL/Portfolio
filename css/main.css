@@ -149,6 +149,7 @@ a {
 }
 #third section {
   background-color: #eeeeee;
+  overflow: hidden;
 }
 #third section .scroll-slider {
   position: relative;
@@ -161,6 +162,7 @@ a {
   transform: rotate(-4deg);
   background-color: #eeeeee;
   inset: 0px auto auto -25px;
+  padding-left: 260px;
 }
 #third section .scroll-wrapper {
   position: relative;
@@ -193,22 +195,24 @@ a {
   font-size: 4vw;
   font-weight: bold;
   line-height: 1;
-  margin-bottom: 10px;
+  width: 50%;
 }
 @media (min-width: 40em) {
   #third section .item-body {
     position: absolute;
-    left: 50%;
     top: 100%;
-    width: 50%;
-    transform: translate(-100%, 0%);
+    width: 100%;
   }
 }
 #third section .item-body p {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 50%;
 }
-#third section .item-body-inner {
+#third section .item-body .item-inner {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 #third section .nav {
   display: flex;
