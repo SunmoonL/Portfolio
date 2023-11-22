@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans KR", sans-serif;
+  color: #222222;
 }
 
 ul,
@@ -49,7 +50,8 @@ a {
   z-index: 0;
   cursor: pointer;
 }
-#top div.topBotomBordersIn a:before, #top div.topBotomBordersIn a:after {
+#top div.topBotomBordersIn a:before,
+#top div.topBotomBordersIn a:after {
   position: absolute;
   left: 0px;
   width: 100%;
@@ -67,7 +69,8 @@ a {
   bottom: 0px;
   transform: translateY(10px);
 }
-#top div.topBotomBordersIn a:hover:before, #top div.topBotomBordersIn a:hover:after {
+#top div.topBotomBordersIn a:hover:before,
+#top div.topBotomBordersIn a:hover:after {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -95,7 +98,7 @@ a {
 }
 #second #intro {
   width: 95%;
-  background-color: #fff;
+  background-color: #fbfbfb;
   margin: 0 auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
@@ -141,7 +144,7 @@ a {
   padding: 15px 15px;
   border-radius: 10px;
   background-color: dodgerblue;
-  color: #fff;
+  color: #fbfbfb;
   font-family: "NeoDunggeunmoPro-Regular";
   font-size: 1.4rem;
 }
@@ -203,6 +206,9 @@ a {
   line-height: 1;
   width: 50%;
 }
+#third section .item-image a img {
+  border-radius: 10px;
+}
 @media (min-width: 40em) {
   #third section .item-body {
     position: absolute;
@@ -249,7 +255,7 @@ a {
   padding: 40px 50px;
   width: 95%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
+  background-color: #fbfbfb;
   margin: 0 auto;
   border-radius: 50px;
 }
