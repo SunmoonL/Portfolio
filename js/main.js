@@ -121,9 +121,6 @@ if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|mobi|t
 
        settings.slideWidth = $firstSlide.width();
        settings.slideHeight = $firstSlide.height();
-     
-       console.log(settings.slideWidth);
-       console.log(settings.slideHeight);
 
        // Calculate slider width and height
        settings.sliderWidth = Math.ceil((settings.slideWidth * $slides.length));

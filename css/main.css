@@ -18,7 +18,7 @@ a {
 #wrap {
   width: 100%;
   height: 100%;
-  background-color: #eeeeee;
+  background-color: #69bff8;
 }
 
 #top {
@@ -37,9 +37,11 @@ a {
   text-align: center;
 }
 #top div.container a {
-  color: #111;
+  color: #fbfbfb;
   text-decoration: none;
   font: 20px Raleway;
+  font-weight: bold;
+  letter-spacing: 2px;
   margin: 0px 10px;
   padding: 10px 10px;
   position: relative;
@@ -51,7 +53,7 @@ a {
   left: 0px;
   width: 100%;
   height: 2px;
-  background: #111;
+  background: #fbfbfb;
   content: "";
   opacity: 0;
   transition: all 0.3s;
@@ -92,9 +94,9 @@ a {
 }
 #second #intro {
   width: 95%;
-  height: 100%;
   background-color: #fff;
   margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   padding: 50px 160px;
 }
@@ -103,6 +105,7 @@ a {
   font-size: 2rem;
   font-weight: 600;
   margin-top: 50px;
+  margin-bottom: 50px;
   line-height: 3rem;
 }
 #second #intro p strong {
@@ -132,7 +135,6 @@ a {
 }
 
 .btn {
-  margin-top: 30px;
   display: inline-block;
   padding: 15px 15px;
   border-radius: 10px;
@@ -146,10 +148,10 @@ a {
   width: 100%;
   height: 960px;
   margin-bottom: 100px;
-  background-color: #eeeeee;
+  background-color: #69bff8;
 }
 #third section {
-  background-color: #eeeeee;
+  background-color: #69bff8;
   overflow: hidden;
 }
 #third section .scroll-slider {
@@ -161,7 +163,7 @@ a {
   height: 100vh;
   width: 110vw;
   transform: rotate(-4deg);
-  background-color: #eeeeee;
+  background-color: #69bff8;
   inset: 0px auto auto -25px;
   padding-left: 260px;
 }
@@ -234,15 +236,17 @@ a {
 #fourth {
   width: 100%;
   height: 650px;
-  background-color: #eeeeee;
+  background-color: #69bff8;
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 #fourth #projwrap {
   display: flex;
   justify-content: space-between;
-  padding: 100px 100px;
+  padding: 50px 50px;
   height: 100%;
   width: 95%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
   margin: 0 auto;
   border-radius: 50px;
@@ -273,10 +277,9 @@ em {
 }
 
 #footer {
-  padding-top: 100px;
   width: 100%;
-  height: 300px;
-  background-color: #eeeeee;
+  height: 200px;
+  background-color: #69bff8;
   position: relative;
 }
 #footer .line {
