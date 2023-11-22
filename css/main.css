@@ -247,7 +247,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 40px 50px;
-  height: 100%;
   width: 95%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
