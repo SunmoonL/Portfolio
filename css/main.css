@@ -276,8 +276,11 @@ a {
   align-content: space-around;
 }
 #fourth #projwrap .right img {
-  width: 100px;
+  width: 120px;
+  height: 120px;
   padding: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 em {

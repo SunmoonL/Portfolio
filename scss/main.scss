@@ -296,8 +296,10 @@ section{
       justify-content: space-around;
       align-content: space-around;
       img{
-        width: 100px;
+        width: 120px;
+        height: 120px;
         padding: 10px;
+        object-fit: cover;
       }
     }
   }
