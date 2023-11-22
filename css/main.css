@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 ul,
@@ -116,6 +117,7 @@ a {
   position: relative;
 }
 #second #intro p strong .text {
+  font-family: "NeoDunggeunmoPro-Regular";
   position: relative;
   z-index: 2;
 }
@@ -258,6 +260,13 @@ a {
 }
 #fourth #projwrap .left h2 {
   margin: 50px 0px;
+  font-family: "NeoDunggeunmoPro-Regular";
+}
+#fourth #projwrap .left p {
+  font-family: "NeoDunggeunmoPro-Regular";
+}
+#fourth #projwrap .left p a {
+  font-family: "NeoDunggeunmoPro-Regular";
 }
 #fourth #projwrap .right {
   width: 45%;

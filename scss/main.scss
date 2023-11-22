@@ -129,6 +129,7 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
                 position: relative;
 
                 .text {
+                    font-family: 'NeoDunggeunmoPro-Regular';
                     position: relative;
                     z-index: 2;
                 }
@@ -279,6 +280,13 @@ section{
       font-size: 20px;
       h2{
         margin: 50px 0px;
+        font-family: 'NeoDunggeunmoPro-Regular';
+      }
+      p{
+        font-family: 'NeoDunggeunmoPro-Regular';
+        a{
+          font-family: 'NeoDunggeunmoPro-Regular';
+        }
       }
     }
     .right{
