@@ -103,6 +103,42 @@ a {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   padding: 50px 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#second #intro em {
+  width: 100%;
+  height: 30px;
+}
+#second #intro #self_pic {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#second #intro #self_pic div {
+  width: 50%;
+}
+#second #intro #self_pic div table {
+  text-align: left;
+}
+#second #intro #self_pic div table tr {
+  height: 30px;
+}
+#second #intro #self_pic div table tr th {
+  width: 20%;
+  vertical-align: baseline;
+}
+#second #intro #self_pic div table tr td {
+  vertical-align: baseline;
+}
+#second #intro #self_pic img {
+  float: left;
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }
 #second #intro p {
   font-family: "NeoDunggeunmoPro-Regular";
@@ -110,7 +146,8 @@ a {
   font-weight: 600;
   margin-top: 50px;
   margin-bottom: 50px;
-  line-height: 3rem;
+  line-height: 4rem;
+  width: 50%;
 }
 #second #intro p strong {
   display: inline-block;
@@ -147,6 +184,13 @@ a {
   color: #fbfbfb;
   font-family: "NeoDunggeunmoPro-Regular";
   font-size: 1.4rem;
+  line-height: initial;
+  float: right;
+  font-weight: normal;
+}
+
+#projwrap > div.left > a {
+  float: left;
 }
 
 #third {
@@ -282,8 +326,8 @@ a {
   align-content: space-around;
 }
 #fourth #projwrap .right img {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   padding: 10px;
   -o-object-fit: cover;
      object-fit: cover;
