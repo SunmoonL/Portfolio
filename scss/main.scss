@@ -15,7 +15,7 @@ $maincolor: #69bff8;
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 0px 10px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -29,7 +29,8 @@ $maincolor: #69bff8;
   div.container a {
     color: #fbfbfb;
     text-decoration: none;
-    font: 20px Raleway;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     margin: 0px 10px;
@@ -152,7 +153,7 @@ $maincolor: #69bff8;
     }
 
     p {
-      font-family: 'NeoDunggeunmoPro-Regular';
+      font-family: 'IBM Plex Sans KR', sans-serif;
       font-size: 2rem;
       font-weight: 600;
       margin-top: 50px;
@@ -168,7 +169,7 @@ $maincolor: #69bff8;
         position: relative;
 
         .text {
-          font-family: 'NeoDunggeunmoPro-Regular';
+          font-family: 'IBM Plex Sans KR', sans-serif;
           position: relative;
           z-index: 2;
         }
@@ -197,7 +198,7 @@ $maincolor: #69bff8;
   border-radius: 10px;
   background-color: dodgerblue;
   color: #fbfbfb;
-  font-family: 'NeoDunggeunmoPro-Regular';
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 1.4rem;
   line-height: initial;
   float: right;
@@ -266,7 +267,7 @@ $maincolor: #69bff8;
       }
 
       &-title {
-        font-size: 4vw;
+        font-size: 4rem;
         letter-spacing: 1px;
         font-weight: bold;
         line-height: 1;
@@ -341,19 +342,19 @@ $maincolor: #69bff8;
 
     .left {
       width: 45%;
-      font-family: 'NeoDunggeunmoPro-Regular';
+      font-family: 'IBM Plex Sans KR', sans-serif;
       font-size: 20px;
 
       h2 {
         margin: 50px 0px;
-        font-family: 'NeoDunggeunmoPro-Regular';
+        font-family: 'IBM Plex Sans KR', sans-serif;
       }
 
       p {
-        font-family: 'NeoDunggeunmoPro-Regular';
+        font-family: 'IBM Plex Sans KR', sans-serif;
 
         a {
-          font-family: 'NeoDunggeunmoPro-Regular';
+          font-family: 'IBM Plex Sans KR', sans-serif;
         }
       }
     }
@@ -376,7 +377,7 @@ $maincolor: #69bff8;
 }
 
 em {
-  font-family: 'NeoDunggeunmoPro-Regular';
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 1rem;
 }
 
@@ -394,7 +395,7 @@ em {
   }
 
   .infooter {
-    font-family: 'NeoDunggeunmoPro-Regular';
+    font-family: 'IBM Plex Sans KR', sans-serif;
     width: 95%;
     margin: 0 auto;
     padding-top: 70px;

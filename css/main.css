@@ -28,7 +28,7 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 0px 10px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -41,7 +41,8 @@ a {
 #top div.container a {
   color: #fbfbfb;
   text-decoration: none;
-  font: 20px Raleway;
+  font-size: 20px;
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
   margin: 0px 10px;
@@ -140,7 +141,7 @@ a {
   border-radius: 10px;
 }
 #second #intro p {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   margin-top: 50px;
@@ -156,7 +157,7 @@ a {
   position: relative;
 }
 #second #intro p strong .text {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   position: relative;
   z-index: 2;
 }
@@ -180,7 +181,7 @@ a {
   border-radius: 10px;
   background-color: dodgerblue;
   color: #fbfbfb;
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 1.4rem;
   line-height: initial;
   float: right;
@@ -242,7 +243,7 @@ a {
   position: relative;
 }
 #third section .item-title {
-  font-size: 4vw;
+  font-size: 4rem;
   letter-spacing: 1px;
   font-weight: bold;
   line-height: 1;
@@ -303,18 +304,18 @@ a {
 }
 #fourth #projwrap .left {
   width: 45%;
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 20px;
 }
 #fourth #projwrap .left h2 {
   margin: 50px 0px;
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 #fourth #projwrap .left p {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 #fourth #projwrap .left p a {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 #fourth #projwrap .right {
   width: 45%;
@@ -332,7 +333,7 @@ a {
 }
 
 em {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 1rem;
 }
 
@@ -349,7 +350,7 @@ em {
   background: linear-gradient(to right, black 50%, #eeeeee);
 }
 #footer .infooter {
-  font-family: "NeoDunggeunmoPro-Regular";
+  font-family: "IBM Plex Sans KR", sans-serif;
   width: 95%;
   margin: 0 auto;
   padding-top: 70px;
