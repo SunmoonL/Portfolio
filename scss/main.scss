@@ -210,13 +210,13 @@ $maincolor: #69bff8;
 
 #third {
   width: 100%;
-  height: 960px;
-  margin-bottom: 100px;
+  height: auto;
   background-color: $maincolor;
+  margin-bottom: 80px;
 
   section {
     background-color: $maincolor;
-    overflow: hidden;
+
 
     .scroll-slider {
       position: relative;
@@ -250,8 +250,6 @@ $maincolor: #69bff8;
     }
 
     .scroll-slide {
-      flex: 1 0 75vw;
-      max-width: 75vw;
       height: 100%;
     }
 
@@ -259,7 +257,7 @@ $maincolor: #69bff8;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 80%;
+      height: 650px;
 
       &-container {
         position: relative;
@@ -298,6 +296,7 @@ $maincolor: #69bff8;
           display: flex;
           flex-wrap: wrap;
           justify-content: flex-end;
+          margin-top: 20px;
         }
       }
     }
@@ -326,8 +325,6 @@ $maincolor: #69bff8;
   width: 100%;
   height: 650px;
   background-color: $maincolor;
-  padding-top: 70px;
-  padding-bottom: 100px;
 
   #projwrap {
     display: flex;
